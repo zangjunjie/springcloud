@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d6eac53-44aa-4393-a23d-ede54e95b16f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mongdb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql5.12" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql5.12" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql5.12" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="springcloud: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql5.12" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="springcloud: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\springboot\springcloud" />
+        <option value="D:\springboot\springcloud\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\server\maven\repository" />
+        <option name="mavenHome" value="D:/server/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\server\maven\setting.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Mx3UhRNjWzgKhJslGPG8IV7OXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo&#10;mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8.0_5" />
+    <property name="last_opened_file_path" value="D:/online/SimpleBBS-master" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProductApp">
+    <configuration name="ConsumerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="microcloud-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.ConsumerApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microcloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.EurekaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microcloud-eureka1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.EurekaApp1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microcloud-eureka2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.EurekaApp2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="microcloud-provider-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.enjoy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.enjoy.ProductApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConsumerApp" />
+      <item itemvalue="Spring Boot.ProductApp" />
+      <item itemvalue="Spring Boot.EurekaApp" />
+      <item itemvalue="Spring Boot.EurekaApp1" />
+      <item itemvalue="Spring Boot.EurekaApp2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProductApp" />
+        <item itemvalue="Spring Boot.EurekaApp2" />
+        <item itemvalue="Spring Boot.EurekaApp1" />
+        <item itemvalue="Spring Boot.EurekaApp" />
+        <item itemvalue="Spring Boot.ConsumerApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d6eac53-44aa-4393-a23d-ede54e95b16f" name="Default Changelist" comment="" />
+      <created>1678695424193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678695424193</updated>
+      <workItem from="1678695427448" duration="3598000" />
+      <workItem from="1678706558588" duration="3211000" />
+      <workItem from="1678717881260" duration="4457000" />
+      <workItem from="1678792681277" duration="2331000" />
+      <workItem from="1678802942359" duration="8885000" />
+      <workItem from="1678811949625" duration="26983000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678888439974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678888439974" />
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1678702662907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1678702662907" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1678854099714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1678854099714" />
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1678706119044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678706119044" />
+    <state x="563" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1678720395577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="563" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678720395577" />
+    <state width="1163" height="466" key="DebuggerActiveHint" timestamp="1678853141639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1163" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1678853141639" />
+    <state x="274" y="215" key="FileChooserDialogImpl" timestamp="1678893673298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="274" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1678893673298" />
+    <state x="823" y="411" width="273" height="274" key="Github.ShareDialog" timestamp="1678894885502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="411" width="273" height="274" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678894885502" />
+    <state x="627" y="221" key="Github.UntrackedFilesDialog" timestamp="1678894963535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678894963535" />
+    <state width="1877" height="74" key="GridCell.Tab.0.bottom" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.0.center" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.0.left" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.0.right" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.1.bottom" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.1.center" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.1.left" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state width="1877" height="74" key="GridCell.Tab.1.right" timestamp="1678896334055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="74" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1678896334055" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1678894831337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1678894831337" />
+    <state x="1032" y="280" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1678804649591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="280" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678804649591" />
+    <state x="380" y="689" key="com.intellij.ide.util.TipDialog" timestamp="1678811949130">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="380" y="689" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1678811949130" />
+    <state x="496" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1678808897981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1678808897981" />
+    <state x="323" y="195" key="new project wizard" timestamp="1678846069594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="323" y="195" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1678846069594" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1678706846598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1678706846598" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1678849909495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1678849909495" />
+    <state x="583" y="203" key="spring file set editor" timestamp="1678719044750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="203" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1678719044750" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microcloud-consumer/src/main/java/cn/enjoy/controller/ConsumerProductController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microcloud-consumer/src/main/java/cn/enjoy/config/RestConfig.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microcloud-provider-product/src/main/java/cn/enjoy/controller/ProductController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>

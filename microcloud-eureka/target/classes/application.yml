@@ -1,0 +1,18 @@
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: eureka1
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://admin:enjoy@eureka1:7001/eureka,http://admin:enjoy@eureka2:7002/eureka,http://admin:enjoy@eureka3:7003/eureka
+  server:
+    eviction-interval-timer-in-ms: 1000 #设置清理时间，默认60s，毫秒为单位
+    enable-self-preservation: false #设置为false表示关闭模式
+spring:
+  security:
+    user:
+      name: admin
+      password: enjoy
