@@ -1,7 +1,8 @@
 package cn.enjoy.controller;
 
 import cn.enjoy.vo.Product;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -20,15 +21,18 @@ import java.util.List;
 @RestController
 @RequestMapping("/consumer")
 public class ConsumerProductController {
-    public static final String PRODUCT_GET_URL = "http://localhost:8080/product/get/";
-    public static final String PRODUCT_LIST_URL = "http://localhost:8080/product/list/";
-    public static final String PRODUCT_ADD_URL = "http://localhost:8080/product/add/";
+    public static final String PRODUCT_GET_URL = "http://microcloud-provider-product/product/get/";
+    public static final String PRODUCT_LIST_URL = "http://microcloud-provider-product/product/list/";
+    public static final String PRODUCT_ADD_URL = "http://microcloud-provider-product/product/add/";
 
     @Resource
     private RestTemplate restTemplate;
 
     @Resource
     private HttpHeaders httpHeaders;
+
+    @Resource
+    private LoadBalancerClient loadBalancerClient;
 
     @RequestMapping("/product/get")
     public Object getProduct(long id){
@@ -40,6 +44,9 @@ public class ConsumerProductController {
     @RequestMapping("/product/list")
     public Object listProduct(){
        // List<Product> product = restTemplate.getForObject(PRODUCT_LIST_URL, List.class);
+        ServiceInstance serviceInstance = this.loadBalancerClient.choose("microcloud-provider-product");
+        System.out.println(serviceInstance.getHost()+"\t"+serviceInstance.getPort()+
+                "\t"+serviceInstance.getServiceId());
         List<Product> product = restTemplate.exchange(PRODUCT_LIST_URL,HttpMethod.GET,
                 new HttpEntity<>(httpHeaders),List.class).getBody();
         return product;
